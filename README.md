@@ -3,14 +3,13 @@ GLWindowsStyleLoader
 Cool windows style loading view inspired from WindowsPhone7.
 
 
-Demo
+Screenshots
 ------------
+<img src="/Screen Shot 01.png" height="400px" width="360px" />
+<img src="/Screen Shot 02.png" height="400px" width="360px" />
+<img src="/Screen Shot 03.png" height="400px" width="360px" />
+<img src="/Screen Shot 04.png" height="400px" width="360px" />
 
-<video width="320" height="240" controls autoplay>
-  <source src="/demo-video.mov" type="video/mp4">
-  <object data="/demo-video.mov" width="320" height="240">
-  </object>
-</video>
 
 ### License
 http://gautam.mit-license.org/
