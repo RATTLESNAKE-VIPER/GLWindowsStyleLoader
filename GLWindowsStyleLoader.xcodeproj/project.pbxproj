@@ -18,8 +18,7 @@
 		C7B1199C17DF283500771132 /* GLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1199617DF283500771132 /* GLAppDelegate.m */; };
 		C7B1199D17DF283500771132 /* GLSimpleIndicatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B1199817DF283500771132 /* GLSimpleIndicatorController.m */; };
 		C7B119A517DF28ED00771132 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B1199F17DF28ED00771132 /* InfoPlist.strings */; };
-		C7B119A617DF28ED00771132 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B119A117DF28ED00771132 /* MainStoryboard_iPad.storyboard */; };
-		C7B119A717DF28ED00771132 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B119A317DF28ED00771132 /* MainStoryboard_iPhone.storyboard */; };
+		C7B119A717DF28ED00771132 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B119A317DF28ED00771132 /* MainStoryboard.storyboard */; };
 		C7B119AA17DF299600771132 /* GLWindowsStyleLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B119A917DF299600771132 /* GLWindowsStyleLoader.m */; };
 		C7B119AC17DF2A8300771132 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B119AB17DF2A8300771132 /* QuartzCore.framework */; };
 		C7B119AF17DF37A500771132 /* GLRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B119AE17DF37A500771132 /* GLRootController.m */; };
@@ -46,8 +45,7 @@
 		C7B1199717DF283500771132 /* GLSimpleIndicatorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLSimpleIndicatorController.h; sourceTree = "<group>"; };
 		C7B1199817DF283500771132 /* GLSimpleIndicatorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLSimpleIndicatorController.m; sourceTree = "<group>"; };
 		C7B119A017DF28ED00771132 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		C7B119A217DF28ED00771132 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		C7B119A417DF28ED00771132 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C7B119A417DF28ED00771132 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C7B119A817DF299600771132 /* GLWindowsStyleLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWindowsStyleLoader.h; sourceTree = "<group>"; };
 		C7B119A917DF299600771132 /* GLWindowsStyleLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWindowsStyleLoader.m; sourceTree = "<group>"; };
 		C7B119AB17DF2A8300771132 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -163,8 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				C7B1199F17DF28ED00771132 /* InfoPlist.strings */,
-				C7B119A117DF28ED00771132 /* MainStoryboard_iPad.storyboard */,
-				C7B119A317DF28ED00771132 /* MainStoryboard_iPhone.storyboard */,
+				C7B119A317DF28ED00771132 /* MainStoryboard.storyboard */,
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
@@ -238,8 +235,7 @@
 				C7B1197B17DF277200771132 /* Default@2x.png in Resources */,
 				C7B1197D17DF277200771132 /* Default-568h@2x.png in Resources */,
 				C7B119A517DF28ED00771132 /* InfoPlist.strings in Resources */,
-				C7B119A617DF28ED00771132 /* MainStoryboard_iPad.storyboard in Resources */,
-				C7B119A717DF28ED00771132 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C7B119A717DF28ED00771132 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,20 +277,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C7B119A117DF28ED00771132 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7B119A217DF28ED00771132 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		C7B119A317DF28ED00771132 /* MainStoryboard_iPhone.storyboard */ = {
+		C7B119A317DF28ED00771132 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C7B119A417DF28ED00771132 /* en */,
 			);
-			name = MainStoryboard_iPhone.storyboard;
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,6 +387,7 @@
 				C7B1198B17DF277200771132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

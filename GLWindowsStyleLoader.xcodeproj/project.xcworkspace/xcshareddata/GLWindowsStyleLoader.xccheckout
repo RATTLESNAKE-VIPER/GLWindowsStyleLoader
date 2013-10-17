@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FAD386E7-3A40-40BF-A8FB-75043C97D5EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GLWindowsStyleLoader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>13739B91-7095-4921-9CCA-7F2C0D545A42</key>
+		<string>https://github.com/RATTLESNAKE-VIPER/GLWindowsStyleLoader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GLWindowsStyleLoader.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>13739B91-7095-4921-9CCA-7F2C0D545A42</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/RATTLESNAKE-VIPER/GLWindowsStyleLoader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>13739B91-7095-4921-9CCA-7F2C0D545A42</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13739B91-7095-4921-9CCA-7F2C0D545A42</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GLWindowsStyleLoader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
