@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GLSimpleIndicatorController : UIViewController
-
-- (IBAction)startAnimation:(id)sender;
-- (IBAction)stopAnimation:(id)sender;
-
+@property (weak, nonatomic) IBOutlet UIButton *animBtn;
+- (IBAction)toggleAnimation:(id)sender;
 @end
